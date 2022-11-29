@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  font-family:'Unica One', 'Chivo','Comfortaa','Nixie One','Poppins',sans-serif ;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  display:none; 
+ 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111116; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+  border-radius: 10px;
+}
